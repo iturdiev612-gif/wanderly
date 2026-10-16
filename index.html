@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Wanderly — путеводитель по четырём странам: культура, природа и красивые места.">
+    <title>Путешествие по четырём странам — Wanderly</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="home-page">
+    <header class="site-header"><a class="logo" href="index.html"><b>W</b>wanderly<i>.</i></a><button
+            class="menu-toggle" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span></button>
+        <nav class="main-nav"><a href="index.html" data-word="home">Главная</a><a href="kyrgyzstan.html"
+                data-word="kg">Кыргызстан</a><a href="usa.html" data-word="us">США</a><a href="spain.html"
+                data-word="es">Испания</a><a href="japan.html" data-word="jp">Япония</a></nav>
+        <div class="tools"><label><span style="position:absolute;clip:rect(0,0,0,0)">Язык</span><select
+                    id="languageSelect" aria-label="Язык">
+                    <option value="ru">RU</option>
+                    <option value="ky">KY</option>
+                    <option value="en">EN</option>
+                    <option value="es">ES</option>
+                    <option value="ja">日本語</option>
+                </select></label><button class="theme-toggle" aria-label="Переключить тему">☾</button></div>
+    </header>
+    <main>
+        <section class="hero"
+            style="background-image:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=2200&q=90')">
+            <div class="hero-content">
+                <p class="eyebrow" data-word="eyebrow">ЧЕТЫРЕ СТРАНЫ · БЕСКОНЕЧНО ВПЕЧАТЛЕНИЙ</p>
+                <h1 data-word="hero">Мир намного<br><em>больше, чем кажется.</em></h1>
+                <p class="hero-copy" data-word="copy">От горных озёр Кыргызстана до неоновых улиц Токио — открой места,
+                    истории и традиции, которые делают каждую страну особенной.</p><a class="button"
+                    href="#destinations"><span data-word="explore">Исследовать страны</span> ↗</a>
+            </div>
+            <div class="hero-foot">YOUR NEXT ADVENTURE STARTS HERE</div>
+        </section>
+        <section class="intro wrap">
+            <div class="kicker">01 <span>ТВОЯ КАРТА ВПЕЧАТЛЕНИЙ</span></div>
+            <div class="intro-grid">
+                <h2 data-word="intro">Четыре мира.<br><em>Одна большая мечта.</em></h2>
+                <p data-word="introcopy">У каждого места свой ритм: тишина гор, энергия мегаполисов, старые улицы и
+                    красота традиций. Выбери направление и начни путешествие прямо сейчас.</p>
+            </div>
+        </section>
+        <section class="destinations wrap" id="destinations">
+            <div class="section-head">
+                <div>
+                    <div class="kicker">02 <span>ВЫБЕРИ НАПРАВЛЕНИЕ</span></div>
+                    <h2 class="section-title" data-word="dest">Куда отправимся?</h2>
+                </div>
+                <p data-word="sub">Четыре страны — четыре неповторимые истории.</p>
+            </div>
+            <div class="cards"><a class="country-card" href="kyrgyzstan.html"><img
+                        src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1100&q=85"
+                        alt="Кыргызстан: пейзажи и красивые места" loading="lazy"><span class="card-num">01 /
+                        ASIA</span>
+                    <div class="card-info"><small>⌁</small>
+                        <h3 data-word="kg">Кыргызстан</h3>
+                        <p data-word="kgTag">Горы, юрты и свобода</p><span class="arrow">↗</span>
+                    </div>
+                </a><a class="country-card" href="usa.html"><img
+                        src="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=1100&q=85"
+                        alt="США: пейзажи и красивые места" loading="lazy"><span class="card-num">02 / AMERICA</span>
+                    <div class="card-info"><small>✳</small>
+                        <h3 data-word="us">США</h3>
+                        <p data-word="usTag">Большие мечты и дороги</p><span class="arrow">↗</span>
+                    </div>
+                </a><a class="country-card" href="spain.html"><img
+                        src="https://images.unsplash.com/photo-1539037116277-4db20889f2d4?auto=format&fit=crop&w=1100&q=85"
+                        alt="Испания: пейзажи и красивые места" loading="lazy"><span class="card-num">03 / EUROPE</span>
+                    <div class="card-info"><small>✺</small>
+                        <h3 data-word="es">Испания</h3>
+                        <p data-word="esTag">Солнце, искусство и жизнь</p><span class="arrow">↗</span>
+                    </div>
+                </a><a class="country-card" href="japan.html"><img
+                        src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1100&q=85"
+                        alt="Япония: пейзажи и красивые места" loading="lazy"><span class="card-num">04 / ASIA</span>
+                    <div class="card-info"><small>✿</small>
+                        <h3 data-word="jp">Япония</h3>
+                        <p data-word="jpTag">Традиции встречают будущее</p><span class="arrow">↗</span>
+                    </div>
+                </a></div>
+        </section>
+        <section class="quote-band">
+            <div class="mark">“</div>
+            <blockquote data-word="quote">Путешествие — это единственная вещь, покупая которую, становишься богаче.
+            </blockquote>
+            <p>— A THOUGHT FOR EVERY EXPLORER</p>
+        </section>
+        <section class="closing wrap">
+            <div>
+                <div class="kicker">03 <span>СОБИРАЙ ВПЕЧАТЛЕНИЯ</span></div>
+                <h2>Мир ждёт.<br><em>Не откладывай любопытство.</em></h2>
+            </div><a class="button" href="#destinations" data-word="homeEnd">Вернуться к карте ↑</a>
+        </section>
+    </main>
+    <footer class="site-footer"><a class="logo" href="index.html"><b>W</b>wanderly<i>.</i></a>
+        <p data-word="foot">Создано для тех, кто хочет увидеть больше.</p><span>© <span id="year"></span>
+            WANDERLY</span>
+    </footer>
+</body>
+
+</html>

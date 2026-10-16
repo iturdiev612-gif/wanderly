@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Wanderly — путеводитель по четырём странам: культура, природа и красивые места.">
+    <title>США — Wanderly</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="theme-city">
+    <header class="site-header"><a class="logo" href="index.html"><b>W</b>wanderly<i>.</i></a><button
+            class="menu-toggle" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span></button>
+        <nav class="main-nav"><a href="index.html" data-word="home">Главная</a><a href="kyrgyzstan.html"
+                data-word="kg">Кыргызстан</a><a href="usa.html" data-word="us">США</a><a href="spain.html"
+                data-word="es">Испания</a><a href="japan.html" data-word="jp">Япония</a></nav>
+        <div class="tools"><label><span style="position:absolute;clip:rect(0,0,0,0)">Язык</span><select
+                    id="languageSelect" aria-label="Язык">
+                    <option value="ru">RU</option>
+                    <option value="ky">KY</option>
+                    <option value="en">EN</option>
+                    <option value="es">ES</option>
+                    <option value="ja">日本語</option>
+                </select></label><button class="theme-toggle" aria-label="Переключить тему">☾</button></div>
+    </header>
+    <main>
+        <section class="country-hero"
+            style="--hero:url('https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=2000&q=90');--quote:url('https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1800&q=85')">
+            <div class="inside"><a class="back" href="index.html" data-word="back">← На главную</a>
+                <p class="eyebrow">NORTH AMERICA · LAND OF BIG DREAMS</p>
+                <h1>США</h1>
+                <p class="lead">От каньонов и бескрайних шоссе до городов, которые никогда не стоят на месте.</p>
+                <div class="stats">
+                    <div><strong>50</strong><span>штатов</span></div>
+                    <div><strong>63</strong><span>национальных парка</span></div>
+                    <div><strong>1776</strong><span>год независимости</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="country-intro wrap">
+            <div class="kicker">01 <span data-word="story">ДУША СТРАНЫ</span></div>
+            <div class="two-col">
+                <h2>Большая страна с тысячей характеров.</h2>
+                <div>
+                    <p>США соединяют разные ландшафты и культуры: от небоскрёбов Нью-Йорка до красных скал Аризоны и
+                        тихоокеанского побережья. Это страна автомобильных путешествий, музыки, кино, спорта и смелых
+                        идей.</p>
+                    <p class="note">Мегаполисы, пустыни, леса и океан могут быть частью одного маршрута.</p>
+                </div>
+            </div>
+        </section>
+        <section class="places wrap">
+            <div class="section-head">
+                <div>
+                    <div class="kicker">02 <span>МЕСТА, КОТОРЫЕ СТОИТ УВИДЕТЬ</span></div>
+                    <h2 class="section-title" data-word="places">Красота в каждом уголке</h2>
+                </div>
+                <p>Сохрани эти места в своём списке мечты.</p>
+            </div>
+            <div class="places-grid">
+                <article class="place"><img
+                        src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25?auto=format&fit=crop&w=1200&q=85"
+                        alt="Нью-Йорк" loading="lazy">
+                    <div class="place-copy"><small>ГОРОД</small>
+                        <h3>Нью-Йорк</h3>
+                        <p>Музеи, Бродвей, Центральный парк и знаменитый силуэт Манхэттена.</p>
+                    </div>
+                </article>
+                <article class="place"><img
+                        src="https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1000&q=85"
+                        alt="Гранд-Каньон" loading="lazy">
+                    <div class="place-copy"><small>ПРИРОДА</small>
+                        <h3>Гранд-Каньон</h3>
+                        <p>Масштабные слои скал, которые река Колорадо формировала миллионы лет.</p>
+                    </div>
+                </article>
+                <article class="place"><img
+                        src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1000&q=85"
+                        alt="Сан-Франциско" loading="lazy">
+                    <div class="place-copy"><small>ПОБЕРЕЖЬЕ</small>
+                        <h3>Сан-Франциско</h3>
+                        <p>Золотые Ворота, трамваи, холмы и атмосфера Тихоокеанского побережья.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="culture">
+            <div class="culture-image"><img
+                    src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25?auto=format&fit=crop&w=1200&q=85"
+                    alt="Культура и природа США" loading="lazy"><b>NORTH AMERICA</b></div>
+            <div class="culture-copy">
+                <div class="kicker">03 <span data-word="culture">ТРАДИЦИИ И ОБРАЗ ЖИЗНИ</span></div>
+                <h2>Дорога — часть приключения.</h2>
+                <p>Американская культура многоголосая: джаз и хип-хоп, бейсбол и баскетбол, кино, уличная еда и традиции
+                    разных общин. Для многих путешественников символ свободы — поездка по Route 66 и остановки в
+                    маленьких городах.</p>
+                <div class="tags"><span>Road trip</span><span>Музыка и кино</span><span>Национальные парки</span></div>
+            </div>
+        </section>
+        <section class="fact wrap">
+            <div class="fact-icon">✳</div>
+            <div>
+                <div class="kicker">04 <span data-word="fact">А ТЫ ЗНАЛ?</span></div>
+                <h2>В стране невероятные природные контрасты</h2>
+                <p>В США есть Долина Смерти — один из самых жарких районов Северной Америки, а на Аляске — ледники и
+                    горные вершины.</p>
+            </div>
+            <div class="big">50</div>
+        </section>
+        <section class="country-quote"
+            style="--quote:url('https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1800&q=85')">
+            <div>
+                <div class="mark">“</div>
+                <blockquote>The journey of a thousand miles begins with a single step.</blockquote>
+                <p>Известная английская пословица</p>
+            </div>
+        </section>
+        <section class="next wrap">
+            <div>
+                <div class="kicker">05 <span data-word="next">ПРОДОЛЖАЙ ПУТЕШЕСТВИЕ</span></div>
+                <h2>Впереди ещё столько мира.</h2>
+            </div><a class="button" href="spain.html">Дальше — Испания ↗</a>
+        </section>
+    </main>
+    <footer class="site-footer"><a class="logo" href="index.html"><b>W</b>wanderly<i>.</i></a>
+        <p data-word="foot">Создано для тех, кто хочет увидеть больше.</p><span>© <span id="year"></span>
+            WANDERLY</span>
+    </footer>
+</body>
+
+</html>

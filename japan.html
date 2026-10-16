@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Wanderly — путеводитель по четырём странам: культура, природа и красивые места.">
+    <title>Япония — Wanderly</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="theme-sakura">
+    <header class="site-header"><a class="logo" href="index.html"><b>W</b>wanderly<i>.</i></a><button
+            class="menu-toggle" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span></button>
+        <nav class="main-nav"><a href="index.html" data-word="home">Главная</a><a href="kyrgyzstan.html"
+                data-word="kg">Кыргызстан</a><a href="usa.html" data-word="us">США</a><a href="spain.html"
+                data-word="es">Испания</a><a href="japan.html" data-word="jp">Япония</a></nav>
+        <div class="tools"><label><span style="position:absolute;clip:rect(0,0,0,0)">Язык</span><select
+                    id="languageSelect" aria-label="Язык">
+                    <option value="ru">RU</option>
+                    <option value="ky">KY</option>
+                    <option value="en">EN</option>
+                    <option value="es">ES</option>
+                    <option value="ja">日本語</option>
+                </select></label><button class="theme-toggle" aria-label="Переключить тему">☾</button></div>
+    </header>
+    <main>
+        <section class="country-hero"
+            style="--hero:url('https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=2000&q=90');--quote:url('https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1800&q=85')">
+            <div class="inside"><a class="back" href="index.html" data-word="back">← На главную</a>
+                <p class="eyebrow">EAST ASIA · WHERE OLD MEETS NEW</p>
+                <h1>Япония</h1>
+                <p class="lead">Тихие храмы, цветение сакуры, быстрые поезда и города будущего в одной удивительной
+                    стране.</p>
+                <div class="stats">
+                    <div><strong>47</strong><span>префектур</span></div>
+                    <div><strong>3</strong><span>системы письма</span></div>
+                    <div><strong>6 000+</strong><span>островов по разным подсчётам</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="country-intro wrap">
+            <div class="kicker">01 <span data-word="story">ДУША СТРАНЫ</span></div>
+            <div class="two-col">
+                <h2>Гармония деталей и смелых идей.</h2>
+                <div>
+                    <p>Япония соединяет древние святилища и высокотехнологичные районы, минимализм и яркую поп-культуру,
+                        шумные станции и сады для спокойного созерцания. Здесь даже повседневные ритуалы наполнены
+                        вниманием к деталям.</p>
+                    <p class="note">Сезон сакуры зависит от региона и погоды; весна приходит на юг и север в разное
+                        время.</p>
+                </div>
+            </div>
+        </section>
+        <section class="places wrap">
+            <div class="section-head">
+                <div>
+                    <div class="kicker">02 <span>МЕСТА, КОТОРЫЕ СТОИТ УВИДЕТЬ</span></div>
+                    <h2 class="section-title" data-word="places">Красота в каждом уголке</h2>
+                </div>
+                <p>Сохрани эти места в своём списке мечты.</p>
+            </div>
+            <div class="places-grid">
+                <article class="place"><img
+                        src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=85"
+                        alt="Киото" loading="lazy">
+                    <div class="place-copy"><small>ТРАДИЦИИ</small>
+                        <h3>Киото</h3>
+                        <p>Деревянные улочки, храмы, чайные дома и сады для созерцания.</p>
+                    </div>
+                </article>
+                <article class="place"><img
+                        src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1000&q=85"
+                        alt="Токио" loading="lazy">
+                    <div class="place-copy"><small>МЕГАПОЛИС</small>
+                        <h3>Токио</h3>
+                        <p>Неоновые улицы, дизайн, аниме-культура и гастрономические районы.</p>
+                    </div>
+                </article>
+                <article class="place"><img
+                        src="https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=1000&q=85"
+                        alt="Фудзи" loading="lazy">
+                    <div class="place-copy"><small>ПРИРОДА</small>
+                        <h3>Фудзи</h3>
+                        <p>Знаковая гора и вдохновение для художников, фотографов и путешественников.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="culture">
+            <div class="culture-image"><img
+                    src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=85"
+                    alt="Культура и природа Япония" loading="lazy"><b>EAST ASIA</b></div>
+            <div class="culture-copy">
+                <div class="kicker">03 <span data-word="culture">ТРАДИЦИИ И ОБРАЗ ЖИЗНИ</span></div>
+                <h2>Уважение к моменту и окружающим.</h2>
+                <p>Чайная церемония, каллиграфия, кимоно, сезонные фестивали и оригами показывают разные стороны
+                    японской культуры. Современная Япония также известна мангой, аниме, видеоиграми, автомобилями и
+                    технологиями.</p>
+                <div class="tags"><span>Чайная церемония</span><span>Аниме и игры</span><span>Автомобили и
+                        технологии</span></div>
+            </div>
+        </section>
+        <section class="fact wrap">
+            <div class="fact-icon">✳</div>
+            <div>
+                <div class="kicker">04 <span data-word="fact">А ТЫ ЗНАЛ?</span></div>
+                <h2>Фраза о неповторимости встречи</h2>
+                <p>«Итиго итиэ» (一期一会) напоминает: каждая встреча уникальна и больше не повторится в точности такой же.
+                    Выражение связано с чайной традицией и вниманием к настоящему моменту.</p>
+            </div>
+            <div class="big">一期</div>
+        </section>
+        <section class="country-quote"
+            style="--quote:url('https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1800&q=85')">
+            <div>
+                <div class="mark">“</div>
+                <blockquote>七転び八起き — упади семь раз, поднимись восемь.</blockquote>
+                <p>Японская пословица о стойкости</p>
+            </div>
+        </section>
+        <section class="next wrap">
+            <div>
+                <div class="kicker">05 <span data-word="next">ПРОДОЛЖАЙ ПУТЕШЕСТВИЕ</span></div>
+                <h2>Впереди ещё столько мира.</h2>
+            </div><a class="button" href="index.html">Вернуться в начало ↗</a>
+        </section>
+    </main>
+    <footer class="site-footer"><a class="logo" href="index.html"><b>W</b>wanderly<i>.</i></a>
+        <p data-word="foot">Создано для тех, кто хочет увидеть больше.</p><span>© <span id="year"></span>
+            WANDERLY</span>
+    </footer>
+</body>
+
+</html>
